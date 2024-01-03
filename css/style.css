@@ -385,7 +385,7 @@ body {
     font-size: 4rem;
   }
 
-  .computerPick, .playerPick, .blankCircle {
+  .computerPick, .playerPick, .blankCircle, .playerPickBlk {
     margin: auto;
   }
 }
