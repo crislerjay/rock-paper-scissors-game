@@ -287,7 +287,7 @@ body {
 
   .scoreBlk {
     padding: 1.5rem;
-    margin: 2rem auto;
+    margin: 4rem auto;
   }
 
   .scoreBlk h1 {
@@ -316,7 +316,7 @@ body {
   }
 
   .choices {
-    margin: 9rem auto 4rem;
+    margin: 12rem auto 8rem;
   }
   
   .choice::after {
@@ -348,11 +348,13 @@ body {
 
   .resultsBlk {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 7rem auto;
   }
 
   .player, .computer {
     width: 44%;
+    text-align: center;
   }
 
   .txt {
@@ -363,9 +365,9 @@ body {
     position: static;
     width: 80%;
     -webkit-transform: none;
-        -ms-transform: none;
-            transform: none;
-    margin: 3rem auto 0;
+    -ms-transform: none;
+    transform: none;
+    margin: 5rem auto 0;
   }
 
   .blankCircle, .shadow {
@@ -381,5 +383,9 @@ body {
 
   .resultTxt {
     font-size: 4rem;
+  }
+
+  .computerPick, .playerPick, .blankCircle {
+    margin: auto;
   }
 }
