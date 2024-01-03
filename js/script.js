@@ -70,11 +70,11 @@ function displayPlayerPick(pick, source) {
 
 // create RPS element
 const rock = document.createElement('div');
-rock.innerHTML = `<p class="circle rock"><a href="javascript:void(0)" class="choice"><img src="/images/icon-rock.svg" alt="rock"></a></p>`
+rock.innerHTML = `<p class="circle rock"><a href="javascript:void(0)" class="choice"><img src="./images/icon-rock.svg" alt="rock"></a></p>`
 const paper = document.createElement('div');
-paper.innerHTML = `<p class="circle paper"><a href="javascript:void(0)" class="choice"><img src="/images/icon-paper.svg" alt="paper"></a></p>`
+paper.innerHTML = `<p class="circle paper"><a href="javascript:void(0)" class="choice"><img src="./images/icon-paper.svg" alt="paper"></a></p>`
 const scissors = document.createElement('div');
-scissors.innerHTML = `<p class="circle scissors"><a href="javascript:void(0)" class="choice"><img src="/images/icon-scissors.svg" alt="scissors"></a></p>`
+scissors.innerHTML = `<p class="circle scissors"><a href="javascript:void(0)" class="choice"><img src="./images/icon-scissors.svg" alt="scissors"></a></p>`
 
 function displayResult(pick, result) {
   setTimeout(function() { 
